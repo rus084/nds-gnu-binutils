@@ -108,5 +108,7 @@ extern int getMsgLen(char *, int);
 //enum{
 //	LOW_NIBBLE,
 //	HIGH_NIBBLE
-//}NIBBLE;
+//}/*NIBBLE*/;
+
+unsigned int calculate_data_size(unsigned char size_info, int nibble);
 #endif // timeline_h
