@@ -50,7 +50,7 @@ extern time_t TotalProfileTime, ReadProfOutDataTime, ParsingProfileDataTime, Wri
 enum{
 	LOW_NIBBLE,
 	HIGH_NIBBLE
-}NIBBLE;
+};
 
 tcgheader tcghdr;       // report header
 tcgfname *tcgfni=NULL;  // report function name index

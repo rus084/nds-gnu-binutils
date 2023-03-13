@@ -51,7 +51,7 @@ extern time_t TotalProfileTime, ReadProfOutDataTime, ParsingProfileDataTime, Wri
 enum{
 	LOW_NIBBLE,
 	HIGH_NIBBLE
-}NIBBLE;
+};
 
 SymListNode *exec_stack=NULL;
 
